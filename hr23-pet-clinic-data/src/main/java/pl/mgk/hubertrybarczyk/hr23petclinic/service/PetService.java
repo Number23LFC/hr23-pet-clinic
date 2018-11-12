@@ -1,14 +1,8 @@
 package pl.mgk.hubertrybarczyk.hr23petclinic.service;
 
-import pl.mgk.hubertrybarczyk.hr23petclinic.model.Vet;
+import pl.mgk.hubertrybarczyk.hr23petclinic.model.Pet;
 
-import java.util.Set;
 
-public interface PetService {
+public interface PetService extends CrudService<Pet, Long> {
 
-    Vet findById(Long id);
-
-    Vet save(Vet Vet);
-
-    Set<Vet> findAll();
 }
