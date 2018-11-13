@@ -1,0 +1,20 @@
+Create Equels method on entity object
+Create Vet Index page and Controller
+Create Owner Index page and Controller
+Load Bootstrap Data on Startup
+List all Vets on Vet index page
+List all Ownsers on Owners Index Page
+Copy all static Resources from Spring Pet Clinic (images, js, css)
+Copy Master Template form Spring Pet Clinic
+Apply master layout to index page
+Apply master layout to Ownsers list Page
+Apply Master Layout to Vet list page
+
++ Adding POJOs
++ Refactor to multimodule project
++ Implement interfaces for services
++ Adding base entity
++ Refactor to common crud interface
++ Updated base entity with JPA annotatnions
++ Impl map based services
++ Adding index page and controller
